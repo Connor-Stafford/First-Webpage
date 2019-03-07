@@ -8,12 +8,50 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  <style>
+      .carousel-inner img {
+          width: 100%;
+          height: 100%;
+      }
+  </style>
 </head>
 <body>
 
+<div class="container mt-3">
+
+<h2>Sponsors/Featured Images</h2>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+ 
+    <ul class="carousel-indicators">
+     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+     <li data-target="#myCarousel" data-slide-to="1"></li>
+     <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ul>
+    
+   <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="Images/Jay%20Z.jpg" alt="Color Logo" width="200" height="200">
+    </div>
+    <div class="carousel-item">
+       <img src="Images/Cyclone%20TM.jpg" alt="Black n White Logo" width="200" height="200">
+    </div>
+    <div class="carousel-item">
+       <img src="Images/clarke%20mugshot.jpeg" alt="Cat Photo" width="200" height="200">
+    </div>
+   </div> 
+    
+   <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+       <span class="carousel-control-prev-icon"></span>
+   </a>
+   <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+       <span class="carousel-control-next-icon"></span>
+   </a>
+</div> 
+    
+</div>
 <div class="jumbotron text-center">
   <h1>Connor's Cool Chrome Page</h1>
-  <p>And I'm the subtitle!</p> 
+  <p>And I'm the subtitle!</p>
 </div>
   
 <div class="container">
@@ -21,22 +59,23 @@
     <div class="col-sm-4">
       <h3>My Hobbies</h3>
       <p>- Building Model Sets</p>
-      <p>- Movies, at least once a week</p>
+      <p>- Movies</p>
       <p>- New Video Games</p>
     </div>
     <div class="col-sm-4">
       <h3>My Pets</h3>
-      <p>- Clarke (So fluffy!)</p>
+      <p>- Clarke</p>
     </div>
     <div class="col-sm-4">
       <h3>My classes</h3>        
-      <p>- Mr Ford's ICT 12</p>
-      <p>- Calculus 12 (Heavy)</p>
+      <p>- Mr Ford's ICT 12</p>   
+      <p>- Calculus 12 </p>
       <p>- English 12</p>
-      <p>- French 12 (Class of 15!)</p>
+      <p>- French 12</p>
+
     </div>
   </div>
 </div>
- <img src="Images/Clarke.JPG" class="mx-auto d-block" alt="Cat photo">
+
 </body>
 </html>
